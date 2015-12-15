@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+#texte {
+	margin: auto; 
+	width: 900px;
+}
+
+p {
+	line-height:1.3;
+	color: grey;
+}
+
+.titre{
+	font-family: 'quicksandregular';
+	font-size: 34px;
+	text-transform: uppercase;
+	text-align:center;
+}
+
+.bienvenue {
+	text-align: center; 
+	color: #3CBDCA;
+}
+
+.message {
+	width: 800px;
+	text-align:center;
+	margin: 20px auto;
+}
+
+#container {
+	border: 1px solid rgb(211, 211, 214);
+}
+
+#btnconnect {
+
+}
+
+.connect {
+	background:#4463b1;
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+}
+
+.connect:hover {
+	background: #369F73;
+}

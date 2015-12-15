@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*** VIDEO EN PAGE D'ACCUEIL ***/
+
+#left_text {
+	width: 780px;
+	padding: 10px;
+	font-size: 16px;
+	font-family: "Calibri", Arial, Sans-serif;
+	margin: auto;
+}
+
+.video {
+	width: 750px;
+	margin: 0px 15px 0px 15px;
+	background: lightblue;
+}
+
+/*** TOUT CE QUI CONCERNE LE BLOC ACTUALITES ***/
+
+/*** tout le bloc news (titre + blocs) --> niveau 1 */
+
+#news_block {
+    position: relative;
+    top: 50px;
+    width: 850px;
+    margin: auto;
+    height: 670px;
+}
+
+/* Titre avec le ruban (Dernières Actualités) */
+
+	/* --> bloc titre */
+	
+.title-square {
+    right: 108px;
+    position: relative;
+    background: url("../images/ribbon-blue-4.png") no-repeat scroll 0% 0% transparent;
+    width: 960px;
+    height: 80px;
+    z-index: 10;
+    padding: 0px;
+    margin-top: -12px;
+    display: inline-block;
+    margin-left: 19px;
+}
+
+/* --> titre en lui même */
+
+.title-square h2 {
+    font-size: 28px;
+    letter-spacing: 0px;
+    color: #FFF;
+    padding: 0px 0px 0px 70px;
+    line-height: 0.8;
+    margin-left: 45px;
+    text-transform: uppercase;
+}
+
+/* bloc contenant les news (général) --> niveau 2 */
+
+.panel {
+    border: 1px solid #808080;
+    position: relative;
+    z-index: 7;
+    width: 770px;
+    height: 560px;
+    left: 80px;
+    padding: 0px 10px 20px 0px;
+    background: none repeat scroll 0% 0% rgba(250, 250, 250,0.2);
+}
+
+/* contenu du bloc panel (texte + images et liens) --> niveau 3 */
+
+.panel-content {
+    padding: 0px 10px;
+    overflow-y: scroll;
+    height: 492px;
+    overflow-x: hidden;
+}
+
+.panel-content .title-text {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.little {
+	border: 1px solid black;
+}
+
+/* News */
+
+#n1, #n2, #n3 {
+	padding: 5px;
+}
+
+.blog_maritan {
+	color:#EA3556; 
+	text-decoration:none;
+}
+
+.blog_maritan:hover {
+	color: #4c979f;
+}
+
+/* bouton "..." (more) */
+
+.more {
+	vertical-align:middle;
+	padding: 5px;
+}
+
+.more img {
+	height: 15px;
+}
+
+/* Lien plus d'actus */
+
+#plus_d_actus {
+	padding: 10px 10px 10px 5px;
+	position: relative;
+	
+}
+
+#plus_d_actus a {
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #EA3556; 
+	text-transform: uppercase;
+}
+
+#plus_d_actus a:hover {
+	color: #4c979f;
+}

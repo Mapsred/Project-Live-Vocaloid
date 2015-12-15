@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Myriad Pro;
+	font-size: 15px;
+}
+
+.logo img {
+    margin: auto;
+    display: block;
+    width: 310px;
+    padding: 10px 30px;
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.6);
+    margin-bottom: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: "quicksandregular";
+    text-transform: uppercase;
+    background-color: rgba(63,163,149,0.9);
+    border: 1.5px solid #808080;
+    padding: 12px 0px;
+    width: 70%;
+    margin: auto;
+    color: #FFF;
+}
+
+#global-messages {
+	background-color: #FFF;
+	width: 70%;
+	margin: auto;
+	margin-top: 10px;
+	min-height: 50px;
+	border: 1.5px solid grey;
+	padding: 12px 0px;
+}
+
+#global-messages span {
+	line-height: 2;
+}
+
+
+.user a {
+	color: #3fa395;
+	padding: 3px 8px 1px 8px;
+		text-decoration: none;
+}
+
+.email a {
+	color: /*#ffa542*/ #27376b;
+	margin-left: 6px;
+	text-decoration: none;
+}
+
+.email a:hover {
+	text-decoration: underline;
+}
+
+.message p {
+	width: 90%;
+	text-align: center;
+}
+
+.date, .heure {
+	background:#4463b1;
+	color: white;
+	padding: 3px 8px 1px 8px;
+	margin-left: 6px;
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*****Pour personnaliser la barre de recherche*****/
+
+.my_gs{
+	  /* Propriétés CSS (sans !important) */
+	  padding: 0;
+	  height: 50px;
+}
+ 
+div#my_gs{
+		width: 500px; /* Par exemple */
+}
+
+
+
+/*****Pour personnaliser le cadre de recherche*****/
+
+input.gsc-input{
+	  /* Propriétés CSS (avec !important) */
+	  !important padding: 5px;
+	  !important padding-right: 80px;
+	  !important margin-top: -8px;
+	  !important margin-left: 10px;
+}
+
+
+
+/*****Pour personnaliser le cadre Google*****/
+
+#gsc-i-id1{
+		/* Propriétés CSS (avec !important) */
+}
+
+
+
+/*****Pour personnaliser le bouton de recherche*****/
+
+input.gsc-search-button{
+	  /* Propriétés CSS (avec !important) */
+}

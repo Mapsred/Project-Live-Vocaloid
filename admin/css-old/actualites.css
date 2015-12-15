@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**** LISTE DES ACTUALITES ***/
+
+#actu {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 800px;
+	margin: auto;
+}
+
+#actus {
+	margin-bottom: 50px;
+}
+
+#actus h4 {
+	text-align: center;
+	font-size: 36px;
+	font-family: 'quicksandregular';
+	text-transform: uppercase;
+}
+
+.title {
+	margin-left: 80px;
+}
+
+#actus a, #num_page a {
+	text-decoration: none;
+	color:#4c979f 
+}
+
+#actus a:hover, #num_page a:hover {
+	color: #333;
+}
+
+.hr {
+	background-color: black;
+	height: 1px;
+	width: 800px;
+}
+
+.image {
+	float: left;
+	margin-right: 15px;
+	margin: 5px 15px 0px 0px;
+	border: 1px solid black;
+}
+
+.image img {
+	width: 80px;
+	height: 80px;
+}

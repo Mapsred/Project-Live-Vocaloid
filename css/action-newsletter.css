@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:url(../images/Vocaloid.full.1518144-2.jpg) center;
+	background-size:cover;
+	font-family: Myriad Pro;
+	font-size: 15px;
+}
+
+.logo img {
+    margin: auto;
+    display: block;
+    width: 310px;
+    padding: 10px 30px;
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.6);
+    margin-bottom: 8px;
+}
+
+.ok {
+    text-align: center;
+    font-size: 36px;
+    font-family: "quicksandregular";
+    text-transform: uppercase;
+    background-color: rgba(63,163,149,0.9);
+    border: 1.5px solid #808080;
+    padding: 12px 0px;
+    width: 70%;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.not-ok {
+    text-align: center;
+    font-size: 36px;
+    font-family: "quicksandregular";
+    text-transform: uppercase;
+    background-color: rgba(226,51,60,0.9);
+    border: 1.5px solid #808080;
+    padding: 12px 0px;
+    width: 70%;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Myriad Pro;
+    background-color: rgba(241,138,159,0.9);
+    border: 1.5px solid #808080;
+    padding: 12px 0px;
+    width: 70%;
+    margin: 0 auto;
+    color: #FFF;
+	margin-top: -1.5%;
+}
+
+a {color: black; font-weight: 600; text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+#envoi {
+	margin-top: 4%;
+}

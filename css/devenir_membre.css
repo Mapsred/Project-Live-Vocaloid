@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*** CONTENU DE LA PAGE ***/
+
+#texte_general {
+	padding: 0px 50px 0px 50px;
+}
+
+
+#texte_general h4 {
+	text-align: center;
+	font-size: 36px;
+	font-family: 'quicksandregular';
+	text-transform: uppercase;
+}
+
+#attention {
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+}
+
+#pour_devenir_membre {
+	text-align: justify;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+#texte_general h1 {
+	font-size: 30px;
+}
+
+#texte_general h2 {
+	font-size: 24px;
+	color: #4c979f; 
+}
+
+#texte_general h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.att_1 {
+	color: #C33;
+	font-weight:bold;
+}
+
+#conditions_d_inscription li, #avantages li {
+	margin-top: 15px;
+	margin-left: 45px;
+	font-size: 16px;
+	list-style: disc;
+}
+
+#conditions_d_inscription, #avantages {
+	margin: 30px 0px 50px 0px;
+}
+
+#adresse_faol {
+	margin: 30px 0px 30px 0px;
+}
+
+.adresse {
+	color:#4298c5 ;
+}
+
+.cv-internet {
+	text-decoration: none; 
+	color: rgb(75,172,198);
+}
+
+.cv-internet:hover {
+	text-decoration: underline;
+}
+
+/****** FORMULAIRE *****/
+
+.champ {
+	margin-top: 10px;
+}
+
+#inscription {
+	margin: 30px 50px 0px 50px;	
+}
+
+.champ input {
+	height: 18px;
+	border-radius: 5px;
+	border: 1px solid #3C3C3C;
+	padding: 2px;
+}
+
+.certifie {
+	color: #3baebe;
+}
+
+/*.file {
+    border: medium none !important;
+    padding: 0px !important;
+    height: 30px !important;
+    background-color: #d9d9ff !important;
+}
+
+.file button {
+	padding:5px;
+	background-color: blue;
+	color: white;
+}*/
+
+/* styles de base si JS est activé */
+.js .input-file-container {
+  position: relative;
+  width: 110px;
+}
+.js .input-file-trigger {
+  display: block;
+  padding: 8px 20px;
+  background: #39D2B4;
+  color: #fff;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+}
+.js .input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: 110px;
+  padding: 10px 0;
+  opacity: 0;
+  cursor: pointer;
+}
+ 
+/* quelques styles d'interactions */
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+  background: #444;
+  color: #FFF;
+}
+ 
+/* styles du retour visuel */
+.file-return {
+  margin: 0;
+}
+.file-return:not(:empty) {
+  margin: 1em 0;
+}
+.js .file-return {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+/* on complète l'information d'un contenu textuel
+   uniquement lorsque le paragraphe n'est pas vide */
+.js .file-return:not(:empty):before {
+  content: "Fichier sélectionné : ";
+  font-style: normal;
+  font-weight: normal;
+}
+
+#btn_send {
+	margin: 20px 0px;
+	height: 40px;
+	width: 80px;
+	background: #4c979e;
+	border: 1px solid black;
+	color: white;
+	display: block;
+}
+
+#btn_send:hover {
+	background:#066;
+}

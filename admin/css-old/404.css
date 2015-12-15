@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:url("../images/leek-40-alpha.png") center;
+	background-size:6%;
+	font-family: "MYRIADPRO-REGULAR";
+	font-size: 15px;
+}
+
+.logo img {
+    margin: auto;
+    display: block;
+    width: 310px;
+    padding: 10px 30px;
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.6);
+    margin-bottom: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'quicksandregular';
+    text-transform: uppercase;
+    background-color: rgba(226,51,60,0.9);
+    border: 1.5px solid #808080;
+    padding: 12px 0px;
+    width: 70%;
+    margin: auto;
+    color: #FFF;
+}
+
+#global-messages {
+	background-color: #FFF;
+	width: 70%;
+	margin: auto;
+	margin-top: 3%;
+	height: 5%;
+	border: 1.5px solid grey;
+	padding: 20px 0px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    font-family: "MYRIADPRO-REGULAR";
+    background-color: rgba(63,163,149,0.9);
+    border: 1.5px solid #808080;
+    padding: 12px 0px;
+    width: 70%;
+    margin: 0 auto;
+    color: #FFF;
+	margin-top: 1%;
+}
+
+a {color: black; font-weight: 600; text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+img {display:block; margin: 20px auto; width: 250px;}

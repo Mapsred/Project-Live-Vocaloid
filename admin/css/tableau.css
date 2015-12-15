@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+h4 {
+	text-align: center;
+	font-size: 36px;
+	font-family: 'quicksandregular';
+	text-transform: uppercase;
+	margin-top: 0px; 
+	margin-bottom: 50px; 
+	padding-top: 30px;
+}
+
+table {
+	position: relative;
+}
+
+.titre, .titre2, .titre3 {
+	padding: 5px;
+	color: white;
+	height: 40px;
+	text-align: center;
+	background: #2A9EA8;
+}
+		
+.ligne1, .ligne2 {
+	width: 900px;
+	height: 80px;
+	text-align: center;
+	margin: auto;
+}
+
+.ligne3 {
+	width: 900px;
+	height: 170px;
+	text-align: center;
+	margin: auto;
+}
+	
+tr {
+	border: 1px solid #515151;
+}
+
+.pourquoi, .internet { 
+	text-align: left;
+	padding: 8px 12px;
+	width: 250px !important;;
+}
+
+.title-pourquoi, .title-internet {
+	width: 250px !important;
+}
+
+.comment, .title-comment, .commentplv {
+	width: 200px !important;
+	text-align: center !important;
+}
+
+.titre10, .titre11, .titre12 {
+	padding: 5px;
+	color: white;
+	height: 40px;
+	text-align: center;
+	background: #EA3556;
+}

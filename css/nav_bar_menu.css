@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#top-bar {
+	background-color: #2a9ea8;
+		
+	height: 52px;
+		
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.all-nav-content {
+	width: 965px;;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/**** FORMULAIRE DE RECHERCHE ****/
+
+/*.recherche {
+	width: 560px;;
+	height: 40px;
+	position: relative;
+	top: 7px;
+	padding: 0;
+	margin: 0 auto;;
+}
+
+.title_search {
+	font-family: "open_sans_condensedbold",Arial;
+	font-size: 20px;
+	color: #FFF;
+	font-variant: small-caps;
+	display: inline-block;
+	font-stretch: condensed;
+	position: relative;
+	top: -15px;
+}
+		
+.custom-search {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}*/
+
+/** CUSTOM CSS **/
+
+/*.cse .gsc-control-cse, .gsc-control-cse {
+	width: 280px !important;
+	padding: 0 !important ;
+	margin: 0px !important;
+	float: left !important;
+	margin-left: 10px !important;
+	margin-top: 3px !important;
+}
+
+.cse input.gsc-input, input.gsc-input {
+	font-size: 13px !important;
+	font-family: Arial !important;
+	color: #666 !important;
+	border-radius: 5px !important;
+	background-image:url("../images/Rechercher.JPG)!important;
+	background-position: 0px -3px !important;
+	background-size: 48%;
+	background-repeat:no-repeat;
+	background-color:#fff;
+}
+
+.cse input.gsc-input:focus, input.gsc-input:focus {
+	background-image:none !important;
+}
+*/
+
+/**** DIV LOGO ****/
+
+#logo {
+    width: 280px;
+    height: 108px;
+    background:url("../images/logo-noir-plus-petit.png") no-repeat scroll 0% 0% / 270px auto transparent;
+    margin-top: 100px;
+    float: left;
+}
+
+/**** SOCIAL ****/
+
+#cont-logo-follow {
+	width: 965px;
+	margin: auto;
+}
+
+.follow-content {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 135px;
+    display: block;
+    float: right;
+}
+
+.suivre {
+	font-family: 'open_sans_condensedbold';
+	font-size: 20px;
+	color: #000;
+	font-variant: small-caps;
+	display: inline-block;
+	font-stretch: condensed;
+	/*font-weight: bolder;*/
+
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: -12px;
+}
+
+#liens_nav {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	margin-left: 5px;
+}
+
+#liens_nav li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.fb {
+    background: url("../images/social2.2.png") no-repeat;
+    background-size: 310%;
+    width: 40px;
+    height: 37px;
+    background-position: 0px 0px;
+}
+
+.fb:hover {
+    background: url("../images/social1.1.png") no-repeat;
+    background-size: 310%;
+    width: 40px;
+    height: 37px;
+    background-position: 0px 0px;
+}
+
+.twt {
+    background: url("../images/social2.2.png") no-repeat;
+    background-size: 310%;
+    width: 40px;
+    height: 37px;
+    background-position: -42px 0px;
+}
+
+.twt:hover {
+    background: url("../images/social1.1.png") no-repeat;
+    background-size: 310%;
+    width: 40px;
+    height: 37px;
+    background-position: -42px 0px;
+}
+
+.ggl {
+    background: url("../images/social2.2.png") no-repeat;
+    background-size: 310%;
+    width: 40px;
+    height: 37px;
+    background-position: -84px 0px;
+}
+
+.ggl:hover {
+    background: url("../images/social1.1.png") no-repeat;
+    background-size: 310%;
+    width: 40px;
+    height: 37px;
+    background-position: -84px 0px;
+}
+
+/*** MENU ***/
+
+#menu li {
+	list-style-type: none;
+	font-size: 24px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	padding: 16px 10px 18px;	
+}
+
+#menu li a {
+	text-decoration:none;
+	padding:5px;
+	color: black;
+	font-family: "bebas_neueregular";
+	padding: 16px 10px 18px;	
+}
+
+#menu1 {
+	height: 25px;
+	font-size: 15px;
+	border: 1px solid rgb(211, 211, 214);
+	text-align:center;
+	padding: 20px;	
+}
+
+#menu1 li {
+	margin:auto;
+	display: inline;
+	position: relative;
+}
+
+#menu1 li a:hover, #menu1 li a:focus {
+	text-decoration: none;
+	border-top: 5px solid #ea3556;
+}
+
+#menu1 li #menu2 {
+	display:none;
+	position:absolute;
+	left: 0px;
+	margin-top: 16px;
+}
+
+#menu1 li:hover #menu2 {
+	display:block;
+
+}
+
+#menu1 li:hover #menu2 li {
+	display: block;
+	position: relative;
+	z-index: 99;
+	background: white;
+	width: 220px;
+	border-right: 1px solid rgb(211, 211, 214);
+	border-left: 1px solid rgb(211, 211, 214);
+}
+
+#menu1 li:hover #menu2 .membres {
+	border-bottom: 1px solid rgb(211, 211, 214)
+}
+
+#menu2 {
+	text-align:center;
+	height: 25px;
+	font-size: 15px;
+	position: absolute;
+}
+
+#menu2 li a:hover {
+	color: #ea3556;
+	border:none;
+}
+
+.a-propos a:hover {
+	color: #ea3556 !important;;
+}
+

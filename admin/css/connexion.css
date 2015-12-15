@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content {
+	padding: 20px;
+	width: 350px;
+	margin: auto;
+	text-align: center;
+}
+
+.message {
+	text-align: center;
+	color: #3CBDCA;
+}
+
+#container {
+	border: 1px solid rgb(211, 211, 214);
+}
+
+.connect {
+	background:#4463b1;
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+	border: #1F2D52 1px solid;
+	width: 290px;
+	margin-top: 20px;
+}
+
+.connect:hover {
+	background: #369f73;
+}
+
+#username, #password {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 150px;
+	padding: 3px 5px;
+}
+
+#username {
+	margin-left: 5px;
+}
+
+#password {
+	margin-left: 25px;
+}
+
+.alert {
+	padding: 10px;
+	top: 17px;
+	position: relative;
+	width: 500px;
+	margin: auto;
+	text-align:center;
+	color: white;
+	background-color: #f40000;
+}
+
+.btn_deco, .btn_co {
+	background:#4463b1;
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+	border: #1F2D52 1px solid;
+}
+
+.btn_deco:hover {
+	background: #A21719;
+}
+
+.btn_co:hover {
+	background: #369F73;
+}
+
+.cont_message {
+	width: 510px;
+	margin: auto;
+}
+
+.p_btn {
+	text-align: center;
+	margin: 25px;
+}

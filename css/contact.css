@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/**** CONTENU DE LA PAGE ***/
+
+#contact {
+	font-size: 17px;
+	display: inline-block;
+}
+
+#contact h4 {
+	text-align: center;
+	font-size: 36px;
+	font-family: 'quicksandregular';
+	text-transform: uppercase
+}
+
+#contact a {
+	text-decoration: none;
+	color:#4c979f 
+}
+
+#contact a:hover {
+	color: #333;
+}
+
+#contact .txt_contact {
+	padding: 0px 100px 0px 100px;
+}
+
+/****** FORMULAIRE *****/
+
+.champ {
+	margin-top: 10px;
+}
+
+#div_form_contact {
+	margin: 30px 100px 0px 100px;	
+}
+
+#input_name, #input_surname, #input_email  {
+	height: 18px;
+}
+
+form input {
+	border: 1px solid black;
+	border-radius: 2px;
+	margin: 0px;
+	margin-top: 3px
+}
+
+.name, .surname, .email, .message {
+	margin: 0px;
+}
+
+#input_message {
+	margin-top: 3px;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+#btn_send {
+	margin-top: 10px;
+	height: 40px;
+	width: 80px;
+	background: #4c979e;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: white;
+	float: left;
+	display: block;
+}
+
+#btn_send:hover {
+	background:#066;
+}
+
+/************ FOOTER MODIFIE *************/
+
+#footer {
+	margin-top: 80px;
+}
+
+

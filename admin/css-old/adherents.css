@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*** CONTENU DE LA PAGE ***/
+
+.hr {
+	width: 920px;
+	height: 2px;
+	background-color: rgb(42, 158, 168);
+	color: rgb(42, 158, 168);
+	border: medium none;
+}
+
+.contenu h4 {
+	text-align: center;
+	font-size: 36px;
+	font-family: 'quicksandregular';
+	text-transform: uppercase
+}
+
+.title-prenom, .title-nom, .title-adhesion {
+	background: #2A9EA8;
+	color: white;
+	padding: 5px;
+	width: 80px;
+	text-align:center;
+}
+
+.nom, .prenom {
+	padding: 5px;
+	width: 80px;
+	text-align:center;
+}
+
+.title-website {
+	background: #2A9EA8;
+	color: white;
+	padding: 5px;
+	width: 200px;
+	text-align:center;
+}
+
+.website {
+	padding: 5px;
+	width: 200px;
+	text-align:center;
+}
+
+.title-pseudo {
+	background: #2A9EA8;
+	color: white;
+	padding: 5px;
+	width: 120px;
+	text-align:center;
+}
+
+.pseudo {
+	padding: 5px;
+	width: 120px;
+	text-align:center;
+}
+
+.adhesion {
+	padding: 5px;
+	width: 100px;
+	text-align:center;
+}
+
+.title-adhesion {
+	background: #2A9EA8;
+	color: white;
+	padding: 5px;
+	width: 100px;
+	text-align:center;
+}
+
+table {
+	margin: auto;
+	width: 600px;
+}
+
+.details {
+    margin-bottom: 50px;
+    border: 01px solid grey;
+}
+
+.legende {
+	width: 870px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+td a {
+	color: #2A9EA8;
+	text-decoration: none;
+}
+
+td a:hover {
+	text-decoration: underline;
+}

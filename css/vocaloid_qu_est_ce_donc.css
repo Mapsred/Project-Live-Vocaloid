@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*** CONTENU DE LA PAGE ***/
+
+h3 {
+	font-family: 'quicksandregular', Arial;
+	color: #35b0bc;
+	text-transform: uppercase;
+	font-size: 19px;
+}
+
+#texte_general {
+	padding: 0px 50px 0px 50px;
+}
+
+#texte_general p {
+	font-size: 15px;
+}
+
+#texte_general a {
+	text-decoration: none;
+	color: #4c979f;
+}
+
+#texte_general a:hover {
+	color: lightgrey;
+}
+
+#texte_general h4 {
+	text-align: center;
+	font-size: 36px;
+	font-family: 'quicksandregular';
+	text-transform: uppercase
+}
+
+#vid1 {
+	width: 640px;
+	margin: auto;
+}
+
+#vid2 {
+	width: 640px;
+	margin: auto;
+}
+
+#vid3 {
+	width: 640px;
+	margin: auto;
+}
+
+#paragraphe_1 {
+	text-align: justify;
+	margin-top: 30px
+}
+
+#paragraphe_2 .miku {
+	padding: 10px 10px 20px 10px;
+	background: lightgrey;
+	width: 250px;
+	font-size: 16px;
+	text-align:center;
+	float: left;
+	margin-right: 30px;
+}
+
+#paragraphe_2 img {
+	width: 250px;
+	margin-top: 0px;
+	border: 1px solid #888;
+}
+
+#text_p_2 {
+	margin-top: 50px;
+	padding: 1px 20px 40px 20px;
+	text-align:justify;
+}
+
+#paragraphe_3 .screen_logiciel {
+	width: 600px;
+	padding: 10px 10px 20px 10px;
+	background:  lightgrey;
+	font-size: 16px;
+	text-align:center;
+	float: left;
+	margin: -60px 150px 40px 150px;
+}
+
+#paragraphe_3 img {
+	width: 600px;
+	border: 1px solid #888;
+}
+
+#text_p_3 {
+	margin-top: 60px;
+	padding: 60px;
+	text-align:justify;
+}
+
+#paragraphe_4 .tell_your_world {
+	width: 600px;
+	padding: 10px 10px 20px 10px;
+	background:  lightgrey;
+	font-size: 16px;
+	text-align:center;
+	float: left;
+	margin: -95px 150px 40px 150px;
+}
+
+#paragraphe_4 img {
+	width: 600px;
+	border: 1px solid #888;
+}
+
+#text_p_4 {
+	margin-top: 60px;
+	padding: 60px;
+	text-align:justify;
+}
+
+#paragraphe_5 .concert_mikunopolis {
+	width: 600px;
+	padding: 10px 10px 20px 10px;
+	background:  lightgrey;
+	font-size: 16px;
+	text-align:center;
+	float: left;
+	margin: -95px 150px 40px 150px;
+}
+
+#paragraphe_5 img {
+	width: 600px;
+	border: 1px solid #888;
+}
+
+#text_p_5 {
+	margin-top: 60px;
+	padding: 60px;
+	text-align:justify;
+}
+
+#paragraphe_6 .hologramme_miku {
+	width: 250px;
+	padding: 10px 10px 20px 10px;
+	background:  lightgrey;
+	font-size: 16px;
+	text-align:center;
+	float: left;
+	margin: 0px 50px 40px 60px;
+}
+
+#paragraphe_6 img {
+	width: 250px;
+	border: 1px solid #888;
+}
+
+#text_p_6 {
+	margin-top: 60px;
+	padding-right: 60px;
+	padding-top: 1px;
+	text-align:justify;
+}
+
+#paragraphe_7 .concert_mikunopolis2 {
+	width: 600px;
+	padding: 10px 10px 20px 10px;
+	background:  lightgrey;
+	font-size: 16px;
+	text-align:center;
+	float: left;
+	margin: 20px 150px 40px 150px;
+}
+
+#paragraphe_7 img {
+	width: 600px;
+	border: 1px solid #888;
+}
+
+#text_p_7 {
+	margin-top: 60px;
+	padding: 60px;
+	text-align:justify;
+}
+
+#paragraphe_8 {
+	width: 650px;
+	font-size: 16px;
+	text-align:center;
+	float: left;
+	margin: 20px 160px 40px 150px;
+	font-style:italic;
+}
+
+.liens_externes a {
+	color: #ea3556;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.liens_externes a:hover {
+	color: grey;
+}
+
+.liens_externes li {
+	margin-top: 10px;
+}
+
+#en_savoir_plus {
+	margin: 270px 150px 20px 150px;
+}
+.redaction {
+	float: right;
+	margin-right: 60px;
+}
+
+.txt-img {
+	color: #000;
+	font-family: "Courier New", Courier, monospace;
+	font-variant: small-caps;
+	font-size: 19px;
+}

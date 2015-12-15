@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+#actus {font-size: 15px !important; text-align: left; width:930px; height: 400px; border: 1px solid grey;  overflow-y: scroll; overflow-x: hidden; margin: auto;}
+
+.col-md-4 {
+/*     display: inline-block;
+    padding: 6px 0px;    float: left;*/
+	width: 800px;
+
+	margin: auto;
+}
+
+a {text-decoration: none; color: inherit;}
+
+.profile-info /*comprend la même chose que profile name*/{
+
+}
+hr {color:grey; background-color: black; height: 1px; clear:both;}
+
+.profile-info a {color: lightseagreen}
+.profile-info a:hover {color: #007878;}
+ 
+.profile-photo {
+/*    float:left;
+*/    margin-right: 10px;
+}
+ 
+.profile-photo img {
+    height: 40px;
+    width: 40px;
+    border: 1px solid grey;
+}
+ 
+.profile-name /* comprend la photo, le nom de la page, le type de post et le "ago"*/{
+    
+}
+ 
+.time-ago {
+    color: rgb(130,145,170);
+}
+ 
+.profile-message {
+    color: black;
+
+}
+ 
+.post-link /*voir sur fb aussi*/ {
+    color: #529096;
+    text-decoration: none;
+}
+
+.post-link:hover {color: #007878;}
+ 
+.post-content{
+    color: #529096;
+}
+ 
+.post-content img /*image du post*/ {
+    max-width: 300px;
+    /*float: left;*/
+    margin: 10px 12px 15px 0px
+}
+ 
+.post-status /*voir sur fb*/ {
+    color: #529096;
+}
+
+.post-status:hover {color: #005858;}
+
+.post-picture /*image dans le post*/{
+	max-width: 300px;
+	max-height: 400px;
+}
+ 
+.post-info{
+
+}
+ 
+.post-info-name{
+    font-weight: bolder;
+    color: #307587;
+    margin-bottom: 7px;
+}
+ 
+.post-info-description {
+    color: grey
+
+}

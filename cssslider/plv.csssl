@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>cssSlider</AppName>
+            <AppUrlS>cssSlider.com</AppUrlS>
+            <AppVersion>2.0</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>false</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryDesc></GalleryDesc>
+            <GalleryKeywords></GalleryKeywords>
+            <GalleryName>plv</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <GalleryTitle></GalleryTitle>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>slide</ImageEffect>
+            <ImageFillColor>#FFFFFF</ImageFillColor>
+            <ImageHeight>350</ImageHeight>
+            <ImageQuality>100</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>:/templates/backgnd/basic/</ImageTemplate>
+            <ImageTemplateName>Basic</ImageTemplateName>
+            <ImageWidth>1000</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <PlayPause>false</PlayPause>
+            <PublishFileName>G:/SITE PLV TEMPLATE/cssslider.html</PublishFileName>
+            <PublishIndex>cssslider.html</PublishIndex>
+            <PublishPath>G:/SITE PLV TEMPLATE</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>60</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>false</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateFont>Pacifico</TemplateFont>
+            <TemplateName>basic</TemplateName>
+            <ThumbHeight>90</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>120</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <WatermarkAlign>66</WatermarkAlign>
+            <WatermarkBgColor>#ffffff</WatermarkBgColor>
+            <WatermarkColor>#514242</WatermarkColor>
+            <WatermarkHaveBgColor>true</WatermarkHaveBgColor>
+            <WatermarkImage></WatermarkImage>
+            <WatermarkOpacity>80</WatermarkOpacity>
+            <WatermarkText>cssSlider.com</WatermarkText>
+            <WatermarkType>1</WatermarkType>
+            <color>#3bcdda</color>
+            <descriptionPos>bottomLeft</descriptionPos>
+            <enableTouch>false</enableTouch>
+            <fullWidth>1</fullWidth>
+            <ieSupport>true</ieSupport>
+            <noFrame>false</noFrame>
+            <showHover>true</showHover>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>G:/SITE PLV TEMPLATE/images/plv-needs-you-format-slider.jpg</url>
+                <title>plv-needs-you-format-slider</title>
+            </Image>
+            <Image>
+                <url>G:/SITE PLV TEMPLATE/images/plv-needs-you-format-slider2.2.jpg</url>
+                <title>plv-needs-you-format-slider2.2</title>
+            </Image>
+            <Image>
+                <url>G:/SITE PLV TEMPLATE/images/plv-needs-you-format-slider2.jpg</url>
+                <title>plv-needs-you-format-slider2</title>
+            </Image>
+            <Image>
+                <url>G:/SITE PLV TEMPLATE/images/plv-presa.jpg</url>
+                <title>plv-presa</title>
+            </Image>
+            <Image>
+                <url>G:/SITE PLV TEMPLATE/images/plv-presa2.2.jpg</url>
+                <title>plv-presa2.2</title>
+            </Image>
+            <Image>
+                <url>G:/SITE PLV TEMPLATE/images/plv-presa2.jpg</url>
+                <title>plv-presa2</title>
+            </Image>
+            <Image>
+                <url>G:/SITE PLV TEMPLATE/images/plv-zone-staff.jpg</url>
+                <title>plv-zone-staff</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-size:cover;
+	font-family: "MYRIADPRO-REGULAR";
+	font-size: 15px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 36px;
+	font-family: 'quicksandregular';
+	text-transform: uppercase
+}
+
+#global-messages {
+    background-color: #FFF;
+    width: 70%;
+    margin: 10px auto;
+    min-height: 50px;
+    border: 1.5px solid #808080;
+    padding: 12px 0px;
+    margin-bottom: 30px;
+}
+
+#global-messages span {
+	line-height: 2;
+}
+
+
+.nom, .prenom {
+	color: #3fa395;
+	background: #f0f0f0;
+	padding: 3px 8px 1px 8px;
+}
+
+.email a {
+	color: /*#ffa542*/ #27376b;
+	margin-left: 6px;
+	text-decoration: none;
+}
+
+.email a:hover {
+	text-decoration: underline;
+}
+
+.message p {
+	width: 90%;
+	text-align: center;
+}
+
+.date, .heure {
+	background:#4463b1;
+	color: white;
+	padding: 3px 8px 1px 8px;
+	margin-left: 6px;
+}
