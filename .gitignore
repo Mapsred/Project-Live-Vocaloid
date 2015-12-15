@@ -1,3 +1,4 @@
+images/*
 layout/connexion.php
 layout/feedbackFB.php
 medias/*
@@ -6,5 +7,3 @@ backgrounds/*
 admin/config.php
 admin/connexion.php
 admin/images/*
-images/*
-images
